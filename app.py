@@ -86,7 +86,7 @@ modo = st.sidebar.selectbox("Modo de entrada", ["Descrição (texto livre)", "En
 
 st.sidebar.markdown("---")
 st.sidebar.write("Banco: **50 materiais embutidos**")
-st.sidebar.write("Modelo: **Learn Language Model**")
+st.sidebar.write("Modelo: **KNN:**K-Nearest Neighbors")
 
 
 # UI Principal
@@ -134,4 +134,5 @@ with st.container():
 # Banco completo
 with st.expander("Mostrar banco de dados completo"):
     st.dataframe(df_raw)
+
 
